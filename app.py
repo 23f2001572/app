@@ -1,5 +1,4 @@
 import streamlit as st
-
 def find_largest(a, b, c):
     return max(a, b, c)
 
@@ -17,4 +16,4 @@ def main():
         st.write(f"The largest number is: {largest}")
 
 if name == "main":
-    main()
+    main()
