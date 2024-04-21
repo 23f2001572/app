@@ -2,7 +2,7 @@ import streamlit as st
 def find_largest(a, b, c):
     return max(a, b, c)
 
-def main():
+def code():
     st.title("Find the Largest Among Three Numbers")
     
     st.write("Enter three numbers below:")
@@ -15,5 +15,5 @@ def main():
         largest = find_largest(num1, num2, num3)
         st.write(f"The largest number is: {largest}")
 
-if name == "main":
-    main()
+if __name__ == "__main__":
+    code()
